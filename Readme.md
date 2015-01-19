@@ -1,7 +1,7 @@
 # Craft Sublime Snippets
 Some snippets for when you are developing plugins on [Craft](http://www.buildwithcraft.com), created for Sublime Text 3.
 
-These snippets have been made from looking at the plugin docs and also Pixel & Tonics coding standards.
+These snippets have been made from looking at the [plugin docs](http://buildwithcraft.com/docs/plugins/introduction) and also [Pixel & Tonic's coding standards](https://github.com/pixelandtonic/CodingStandards).
 
 ## Installation
 These snippets are not yet on Package Control, but they will be added soon hopefully.
