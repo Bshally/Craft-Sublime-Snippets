@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+namespace Craft;
+${1:}
+class ${2:PluginHandle}_${3:WidgetHandle}Widget extends BaseWidget
+{
+	public function getName()
+    {
+        return Craft::t('${4:Widget name}');
+    }
+
+    public function getBodyHtml()
+    {
+
+        return craft()->templates->render('${5:path/to/widget/template}', array(
+            'data' => \$data
+        ));
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>craft-widget-class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

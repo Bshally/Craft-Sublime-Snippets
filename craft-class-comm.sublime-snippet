@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:One or two line short description about the class.}
+ *
+ * ${2:Much longer in-depth description of the class that goes into great details about its functionality that follows the
+ * ever important 120 character hard limit.}
+ *
+ * @author    ${3:author} <${4:authorEmail}>
+ * @copyright Copyright (c) 2014, ${3:author}
+ * @license   http://buildwithcraft.com/license Craft License Agreement
+ * @link      ${5:authorLink}
+ * @package   ${6:package}
+ * @since     ${7:since}
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>craft-class-comm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

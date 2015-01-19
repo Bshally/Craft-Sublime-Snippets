@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+namespace Craft;
+${1:}
+class ${2:PluginHandle}_${3:FieldTypeName}FieldType extends BaseFieldType
+{
+	public function getName()
+    {
+        return Craft::t('${4:Field name}');
+    }
+
+    public function getInputHtml($name, $value)
+    {
+        return craft()->templates->render('${5:path/to/input/template}', array(
+            'name'  => \$name,
+            'value' => \$value
+        ));
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>craft-fieldtype-class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

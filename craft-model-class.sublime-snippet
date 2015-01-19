@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+namespace Craft;
+${1:}
+class ${2:PluginHandle}_${3:ModelName}Model extends BaseModel
+{
+	protected function defineAttributes()
+    {
+        return array(
+            ${4:'name' => AttributeType::String},
+        );
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>craft-model-class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
